@@ -19,7 +19,7 @@ cc_library_static {
     recovery_available: true,
     srcs: ["init_klte.cpp"],
     include_dirs: [
-        "device/samsung/msm8974-common/init",
+        "device/samsung/klte-common/init",
         "system/core/base/include",
         "system/core/init",
     ],
